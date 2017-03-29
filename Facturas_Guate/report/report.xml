@@ -35,7 +35,7 @@
             </table>
             <br/>
             <br/>
-            <table border="1" style="width:100%;">
+            <table border="1" style="width:100%; font-size: 10px;" >
               <tr t-foreach="o.invoice_line_ids" t-as="l">
                 <td width="15%"><span t-field="l.quantity"/><span t-field="l.uom_id" groups="product.group_uom"/>  
                                                                         </td>
@@ -46,7 +46,7 @@
               </tr>
             </table>
           </div>
-          <div class="footer">
+          <div class="footer" style="font-size: 10px;">
             <div name="invoice_amount_total" class="col-xs-0 col-xs-offset-10">
               <span t-esc="'{0:,.2f}'.format(o.amount_total)"/>
             </div>
