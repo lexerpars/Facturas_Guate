@@ -3,7 +3,7 @@
 	'name': "Reporte",
 
 	'summary': """
-		Reporte Facturas Mario Edyberto Hernandez Cardona""",
+		Reporte Facturas Mario Edyberto Hernandez Cardona.""",
 
 	'description': """
 		Modulo para generar reporte de facturas para empresa 
